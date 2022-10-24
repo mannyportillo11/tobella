@@ -1,3 +1,49 @@
 * {
-  background-color: turquoise;
+  color: black;
+}
+
+header {
+  background-color: pink;
+  margin: 0px 50px;
+  border-color: rgb(0, 76, 255);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  color: rgb(0, 76, 255);
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h1 a {
+  color: rgb(0, 76, 255);
+  text-decoration: none;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+header nav ul li a {
+  color: rgb(0, 76, 255);
+  text-decoration: none;
+}
+
+section {
+  color: orange;
+}
+
+footer {
+  color: rgb(0, 76, 255);
+  background-color: pink;
+  border-color: rgb(0, 76, 255);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
 }
